@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Abu Dhabi Intl",
+        "key": "AUH",
+        "country": "الامارات العربية المتحدة"
+    },
+    {
+        "name": "Abu Dhabi-bus Station",
+        "key": "ZVJ",
+        "country": "الامارات العربية المتحدة"
+    },
+    {
+        "name": "Al Ain",
+        "key": "AAN",
+        "country": "الامارات العربية المتحدة"
+    },
+    {
+        "name": "Al Fujairah Fujairah Intl Arpt",
+        "key": "FJR",
+        "country": "الامارات العربية المتحدة"
+    },
+    {
+        "name": "Dubai",
+        "key": "DXB",
+        "country": "الامارات العربية المتحدة"
+    },
+    {
+        "name": "Dubai Bus Station Arpt",
+        "key": "XNB",
+        "country": "الامارات العربية المتحدة"
+    },
+    {
+        "name": "Ras Al Khaimah",
+        "key": "RKT",
+        "country": "الامارات العربية المتحدة"
+    },
+    {
+        "name": "Sharjah",
+        "key": "SHJ",
+        "country": "الامارات العربية المتحدة"
+    },
+    {
+        "name": "Muscat Seeb",
+        "key": "MCT",
+        "country": "سلطنة عمان"
+    },
+    {
+        "name": "Salalah",
+        "key": "SLL",
+        "country": "سلطنة عمان"
+    },
+    {
+        "name": "Sur Arpt",
+        "key": "SUH",
+        "country": "سلطنة عمان"
+    }
+]
