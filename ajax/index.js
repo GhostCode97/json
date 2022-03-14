@@ -22,21 +22,20 @@ function GetRequest() {
                     countKey++;
                 }
                 document.getElementById("contHead").appendChild(newRow);
-
-                for (let index = 0; index < myObject.length; index++) {
+ 
+                myObject.forEach((Row, index) => {
+                    //console.log(Row);
                     let newRow = document.createElement("tr");
-                    for (let col in myObject[index])
-                    {
+                    for (const key in Row){
                         let newCol = document.createElement("td");
-                        let newContentCol = document.createTextNode(myObject[index][col]);
+                        let newContentCol = document.createTextNode(Row[key]);
                         newCol.appendChild(newContentCol);
                         newRow.appendChild(newCol);
-                    }
-                    //console.log(typeof(newRow));
+                    }                
                     document.getElementById("anyData").appendChild(newRow);
-                }                
+                });               
             }
-            }
+        }
     };
     myreq.open("GET", "listData.json", true);
     //myreq.open("GET","file.php?name=",true);
